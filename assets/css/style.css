@@ -74,6 +74,40 @@ footer h3 {
     margin: 0;
 }
 
-.hero img {
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+
+.role {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.role h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-img {
+    padding: 20px;
+    border: solid 3px var(--secondary-color);
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-img img {
     height: 300px;
+    float: left;
 }
