@@ -18,26 +18,30 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header nav {
@@ -60,7 +64,10 @@ header nav ul li a {
 }
 
 footer {
-    background: var(--primary-color);
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -68,7 +75,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h3 {
+footer h4 {
     color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
@@ -102,12 +109,54 @@ footer h3 {
 
 .hero-img {
     padding: 20px;
-    border: solid 3px var(--secondary-color);
     margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-img img {
     height: 300px;
     float: left;
+}
+
+section {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+
+.section-heading {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+
+#about-me p {
+    line-height: 1.7;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info h3 {
+    font-size: 32px;
+}
+
+.contact-info a {
+    color: var(--tertiary-color);
 }
