@@ -1,5 +1,4 @@
 :root {
-    --primary-color: rgb(94, 7, 94);
     --secondary-color: rgb(0, 153, 255);
     --tertiary-color: rgb(255, 208, 0);
 
@@ -34,14 +33,14 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--primary-color);
+    color: var(--tetiary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--tetiary-color);
 }
 
 header nav {
@@ -94,10 +93,8 @@ footer h4 {
 
 .role {
     width: 35%;
-    text-align: right;
     margin: 3.5%;
     line-height: 1.2;
-    text-align: left;
 }
 
 .role h2 {
@@ -113,7 +110,7 @@ footer h4 {
 }
 
 .hero-img img {
-    height: 300px;
+    height: 400px;
     float: left;
 }
 
@@ -159,4 +156,9 @@ section {
 
 .contact-info a {
     color: var(--tertiary-color);
+}
+
+.contact-info img {
+    height: 75px;
+    padding: 10px;
 }
