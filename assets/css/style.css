@@ -178,6 +178,7 @@ section {
 
 .run-buddy {
     display: flex;
+    margin-left: 25%;
 }
 
 .run-buddy img {
